@@ -2,10 +2,12 @@
   "name": "myproject",
   "version": "1.0.0",
   "description": "",
+  "scripts": {
+    "build": "parcel build src/index.html -d ../docs --public-url ./"
+  },
   "author": "ics-kano",
   "license": "ISC",
   "devDependencies": {
-    "parcel": "^1.12.3",
-    "typescript": "^3.3.4000"
+    "parcel": "^1.12.3"
   }
 }
