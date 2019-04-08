@@ -6,7 +6,7 @@
     "build": "parcel build src/index.html -d ../docs --public-url ./"
   },
   "author": "ics-kano",
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
     "parcel": "^1.12.3"
   }
